@@ -1,0 +1,13 @@
+tmp_directory: /tmp/rd/
+
+user_scripts: 
+  - speedread
+
+user_styles: 
+  - reset
+  - typography 
+  - pad
+
+keybindings:
+  ctrl-shift-i: toggle_script speedread
+  ctrl-shift-p: toggle_style reset
