@@ -1,12 +1,14 @@
 tmp_directory: /tmp/rd/
 
 user_scripts: 
-  - speedread
+  # Scripts crunched to one file
+  # Load these in proper order
+  # Manpage depends on JS
+  - manpage
 
 user_styles: 
   - reset
-  - typography 
-  - pad
+  - milstil
 
 keybindings:
   ctrl-shift-i: toggle_script speedread

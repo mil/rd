@@ -1,10 +1,10 @@
 rd.speedread = (function(scope) {
   function initialize() {
-    alert("speed read initialized");
+    console.log("speed read initialized");
 
   }
   function uninitialize() {
-    alert("speed read uninitialized");
+    console.log("speed read uninitialized");
   }
 
   return {

@@ -48,7 +48,7 @@ class Rd
     Dir.mkdir @tmpDirectory if !File.directory?(@tmpDirectory)
   end
   def write_pipe_to_tmp_fh(filehandle)
-    content = ARGF.read
+    content = "<!doctype html><html><body>#{ARGF.read}</body></html>"
     File.open("#{@tmpDirectory}/#{filehandle}", 'w') do |file|
       file.write(content)
     end
